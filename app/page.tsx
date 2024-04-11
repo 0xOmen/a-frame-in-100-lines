@@ -28,10 +28,10 @@ const frameMetadata = getFrameMetadata({
 });
 
 export const metadata: Metadata = {
-  title: 'doc-omen.vercel.app',
+  title: 'doc-omen-62116mkh8-0x-omens-projects.vercel.app',
   description: 'Hello World for Omen',
   openGraph: {
-    title: 'doc-omen.vercel.app',
+    title: 'doc-omen-62116mkh8-0x-omens-projects.vercel.app',
     description: 'Hello World for Omen',
     images: [`${NEXT_PUBLIC_URL}/woofy.jpeg`],
   },
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>doc-omen.vercel.app</h1>
+      <h1>doc-omen-62116mkh8-0x-omens-projects.vercel.app</h1>
     </>
   );
 }
