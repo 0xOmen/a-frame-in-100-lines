@@ -5,35 +5,35 @@ import { NEXT_PUBLIC_URL } from './config';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Story time!',
+      label: 'Start',
     },
     {
       action: 'link',
       label: 'Link to Google',
       target: 'https://www.google.com',
-    },
+    } /*
     {
       label: 'Redirect to pictures',
       action: 'post_redirect',
-    },
+    },*/,
   ],
   image: {
-    src: `${NEXT_PUBLIC_URL}/park-3.png`,
+    src: `${NEXT_PUBLIC_URL}/Haberdasher.png`,
     aspectRatio: '1:1',
-  },
+  } /*
   input: {
     text: 'Tell me a boat story',
-  },
+  },*/,
   postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
 });
 
 export const metadata: Metadata = {
-  title: 'zizzamia.xyz',
-  description: 'LFG',
+  title: 'doc-omen.vercel.app',
+  description: 'Hello World for Omen',
   openGraph: {
-    title: 'zizzamia.xyz',
-    description: 'LFG',
-    images: [`${NEXT_PUBLIC_URL}/park-1.png`],
+    title: 'doc-omen.vercel.app',
+    description: 'Hello World for Omen',
+    images: [`${NEXT_PUBLIC_URL}/woofy.png`],
   },
   other: {
     ...frameMetadata,
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>zizzamia.xyz</h1>
+      <h1>doc-omen.vercel.app</h1>
     </>
   );
 }
