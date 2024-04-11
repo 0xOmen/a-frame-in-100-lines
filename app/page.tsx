@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'doc-omen.vercel.app',
     description: 'Hello World for Omen',
-    images: [`${NEXT_PUBLIC_URL}/woofy.png`],
+    images: [`${NEXT_PUBLIC_URL}/woofy.jpeg`],
   },
   other: {
     ...frameMetadata,
